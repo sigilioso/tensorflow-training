@@ -1,0 +1,17 @@
+data:
+  width: 60
+  height: 60
+  images_path: './DITS-classification-data'
+  batch_size: 200
+
+network:
+  first_layer: 16
+  second_layer: 32
+  third_layer: 64
+  learning_rate: 0.001
+  save_to_file: './dits-nn/nn.ckpt'
+  restore_from_file: './dits-nn/nn.ckpt'
+
+training:
+  iterations: 1000
+  keep_prob: 0.75

@@ -1,0 +1,24 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+matplotlib = "*"
+opencv-python = "*"
+pyaml = "*"
+"681495b" = {file = "https://github.com/sigilioso/tensorflow-build/raw/master/tensorflow-1.4.0-cp36-cp36m-linux_x86_64.whl"}
+tensorflow = "*"
+
+
+[dev-packages]
+
+ipdb = "*"
+
+
+[requires]
+
+python_version = "3.6"
