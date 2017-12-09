@@ -213,7 +213,7 @@ class NeuralNetwork():
 
 if __name__ == '__main__':
     nn = NeuralNetwork()
-    # nn.train()
-    image_path = './DITS-classification-data/classification test/6/2015-11-30 14-38-40.546.wmv_7667_0000_0577_0183_0077_0078.png'  # noqa
-    label = nn.make_prediction(image_path)
-    print('Predicted: {} - {}'.format(label, get_label_name(label)))
+    nn.train()
+    # image_path = './DITS-classification-data/classification test/6/2015-11-30 14-38-40.546.wmv_7667_0000_0577_0183_0077_0078.png'  # noqa
+    # label = nn.make_prediction(image_path)
+    # print('Predicted: {} - {}'.format(label, get_label_name(label)))

@@ -27,4 +27,3 @@ Classification of traffic signals problem.
 
 - Auto-adjust learning rate
 - Commands to train / make predictions
-- Incluide previously trained network

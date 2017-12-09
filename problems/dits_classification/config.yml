@@ -13,5 +13,5 @@ network:
   restore_from_file: './dits-nn/nn.ckpt'
 
 training:
-  iterations: 1000
+  iterations: 2000
   keep_prob: 0.75
